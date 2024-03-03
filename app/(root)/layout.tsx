@@ -1,5 +1,5 @@
-import MobileNav from "@/components/Sidebar/MobileNav";
-import Sidebar from "@/components/Sidebar/Sidebar";
+import MobileNav from "@/components/Navbar/MobileNav";
+import Sidebar from "@/components/Navbar/Sidebar";
 import React from "react";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
