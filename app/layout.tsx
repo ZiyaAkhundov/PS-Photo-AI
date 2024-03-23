@@ -5,7 +5,7 @@ import Favicon from "../public/logo.svg";
 import { cn } from "@/lib/utils";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "@/components/ui/toaster";
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const IBMPlex = IBM_Plex_Sans({
   subsets: ["latin"],
