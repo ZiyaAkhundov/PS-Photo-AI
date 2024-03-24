@@ -241,7 +241,7 @@
   }
 
   .credits-btn {
-    @apply w-full rounded-full bg-bondiBlue-100 bg-cover text-bondiBlue-500 hover:text-bondiBlue-500;
+    @apply w-full rounded-full bg-bondiBlue-300 bg-cover text-white hover:text-bondiBlue-500;
   }
 
   /* Profile Page */

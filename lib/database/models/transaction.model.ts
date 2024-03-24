@@ -5,11 +5,6 @@ const TransactionSchema = new Schema({
     type: Date,
     default: Date.now,
   },
-  stripeId: {
-    type: String,
-    required: true,
-    unique: true,
-  },
   amount: {
     type: Number,
     required: true,
@@ -23,6 +18,18 @@ const TransactionSchema = new Schema({
   buyer: {
     type: Schema.Types.ObjectId,
     ref: "User",
+  },
+  creditCardNumber: {
+    type: Number,
+    required: true,
+  },
+  expDate: {
+    type: String,
+    required: true,
+  },
+  cvv: {
+    type: String,
+    required: true,
   },
 });
 
