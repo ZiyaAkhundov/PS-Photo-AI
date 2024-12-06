@@ -34,7 +34,7 @@ export default function RootLayout({
           <SpeedInsights />
           <Script
             id="tawk-to-script"
-            strategy="afterInteractive" 
+            strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `
                 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
