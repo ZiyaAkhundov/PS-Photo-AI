@@ -97,7 +97,7 @@ export const plans = [
     name: "Premium Package",
     icon: "/assets/icons/free-plan.svg",
     price: 12.99,
-    credits: 100,
+    credits: 80,
     inclusions: [
       {
         label: "100 Credits",
