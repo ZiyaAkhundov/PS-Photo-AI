@@ -23,9 +23,10 @@ export const metadata: Metadata = {
     description: "AI-powered image editor designed by programmers school",
     url: "https://ps-photo-ai.vercel.app",
     siteName: "PS Photo AI",
+    type: "website",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://ps-photo-ai.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "PS Photo AI",
@@ -36,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PS Photo AI",
     description: "AI-powered image editor designed by programmers school",
-    images: ["/og-image.png"],
+    images: ["https://ps-photo-ai.vercel.app/og-image.png"],
   },
 };
 
