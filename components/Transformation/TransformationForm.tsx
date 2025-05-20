@@ -316,7 +316,7 @@ const TransformationForm = ({
           <Button
             type="button"
             className="submit-button capitalize"
-            disabled={isTransforming || newTransformation === null}
+            disabled={isTransforming || newTransformation === null || !form.formState.isValid}
             onClick={onTransformHandler}
           >
             {isTransforming ? "Transforming..." : "Apply Transformation"}
@@ -325,7 +325,7 @@ const TransformationForm = ({
           <Button
             type="submit"
             className="submit-button capitalize"
-            disabled={isSubmitting}
+            disabled={isSubmitting || !form.formState.isValid || !transformationConfig || isTransforming}
           >
             {isSubmitting ? "Submitting..." : "Save Image"}
           </Button>
