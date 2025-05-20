@@ -18,6 +18,26 @@ export const metadata: Metadata = {
   title: "PS Photo AI",
   description: "AI-powered image editor designed by programmers school",
   icons: [{ rel: "icon", url: Favicon.src }],
+  openGraph: {
+    title: "PS Photo AI",
+    description: "AI-powered image editor designed by programmers school",
+    url: "https://ps-photo-ai.vercel.app",
+    siteName: "PS Photo AI",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "PS Photo AI",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PS Photo AI",
+    description: "AI-powered image editor designed by programmers school",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
